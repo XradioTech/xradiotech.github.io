@@ -1,5 +1,5 @@
-theme: jekyll-theme-cayman
-site_name: MkLorum
+theme: mydocs
+site_name: XRADIOTECH Developer Guide
 nav:
         - Home: index.md
         - About: about.md
