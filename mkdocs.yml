@@ -1,6 +1,6 @@
 site_name: 芯之联开发手册
 nav:
-    - 快速入门: zh_CN/index.md
+    - 快速入门: zh_CN/get-started.md
     - 芯片资料: zh_CN/ic-doc.md
     - 硬件参考: zh_CN/hw-ref.md
 theme: readthedocs
