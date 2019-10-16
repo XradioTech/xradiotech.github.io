@@ -1,5 +1,5 @@
-theme: readthedocs
-site_name: MkLorum
+theme: bootstrap
+site_name: Xradiotech
 pages:
 - [index.md, Home]
 - [about.md, About]
