@@ -1,5 +1,5 @@
 theme: readthedocs
 site_name: MkLorum
-nav:
-        - Home: index.md
-        - About: about.md
+pages:
+- [index.md, Home]
+- [about.md, About]
