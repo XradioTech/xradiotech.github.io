@@ -1,5 +1,5 @@
-theme: mydocs
-site_name: XRADIOTECH Developer Guide
+theme: readthedocs
+site_name: MkLorum
 nav:
         - Home: index.md
         - About: about.md
