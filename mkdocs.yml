@@ -1,4 +1,5 @@
 site_name: 芯之联产品开发手册
+logo: images/XRADIOTECHLOGO.png
 nav:
     - 快速入门: zh_CN/get-started.md
     - 芯片资料: zh_CN/ic-doc.md
