@@ -1,4 +1,4 @@
-site_name: 芯之联产品开发手册
+site_name: 芯之联文档中心
 logo: images/XRADIOTECHLOGO.png
 nav:
     - 快速入门: zh_CN/get-started.md
@@ -11,3 +11,4 @@ nav:
     - 认证指导: zh_CN/certification.md
     - 工程报告: zh_CN/reports.md
 theme: readthedocs
+article_nav_bottom: true
