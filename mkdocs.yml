@@ -3,4 +3,10 @@ nav:
     - 快速入门: zh_CN/get-started.md
     - 芯片资料: zh_CN/ic-doc.md
     - 硬件参考: zh_CN/hw-ref.md
+    - 软件指南: zh_CN/sw-guide.md
+    - API参考: zh_CN/api-ref.md
+    - 产品设计: zh_CN/product-guide.md
+    - 生产测试: zh_CN/mp-test.md
+    - 认证指导: zh_CN/certification.md
+    - 工程报告: zh_CN/reports.md
 theme: readthedocs
