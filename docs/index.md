@@ -22,12 +22,13 @@
 此处是芯之联科技公司及产品文档中心，此处展示深圳芯之联科技有限公司的基本信息，产品手册，硬件参考及开发指南等相关信息，用以帮助和指导希望了解芯之联产品并用之开发相关应用的客户，开发者，学生及发烧友等群体人员。
 
 ## 文档导航
-|<img src="images/get-started.png" width=200/>|<img src="images/product-datasheet.png" width=200/>|<img src="images/hw-ref.png" width=200/>|
+|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |:---:|:---:|:--:|
+|<img src="images/get-started.png" width=150/>|<img src="images/product-datasheet.png" width=150/>|<img src="images/hw-ref.png" width=150/>|
 |[快速入门](zh_CN/get-started.md)|[产品手册](zh_CN/api-ref.md)|[硬件参考](zh_CN/hw-ref.md)|
-|<img src="images/sw-guide.png" width=200/>|<img src="images/api-ref.png" width=200/>|<img src="images/product-design.png" width=200/>|
+|<img src="images/sw-guide.png" width=150/>|<img src="images/api-ref.png" width=150/>|<img src="images/product-design.png" width=150/>|
 |[软件指南](zh_CN/sw-guide.md)|[API参考](zh_CN/api-ref.md)|[产品设计](zh_CN/product-design.md)|
-|<img src="images/mp-test.png" width=200/>|<img src="images/cert.png" width=200/>|<img src="images/report.png" width=200/>|
+|<img src="images/mp-test.png" width=150/>|<img src="images/cert.png" width=150/>|<img src="images/report.png" width=150/>|
 |[生产测试](zh_CN/mp-test.md)|[认证指导](zh_CN/cert.md)|[生产测试](zh_CN/reports.md)|
 
 ## 联系我们
