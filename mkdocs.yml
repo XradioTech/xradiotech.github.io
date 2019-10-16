@@ -1,5 +1,5 @@
-site_name: MkLorum
+site_name: 
 nav:
-    - Home: index.md
-    - About: about.md
+    - Home: zh_CN/index.md
+    - About: zh_CN/about.md
 theme: readthedocs
