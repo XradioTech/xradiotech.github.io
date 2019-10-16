@@ -1,5 +1,5 @@
 
-![](../images/XRADIOTECHLOGO.png)
+![](images/XRADIOTECHLOGO.png)
 
 # XRADIOTECH开发手册  
 
