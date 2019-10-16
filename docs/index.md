@@ -33,6 +33,7 @@ table th:nth-of-type(3) {
 	width: 300px;
 }
 </style>
+
 ||||
 |:---:|:---:|:--:|
 |<img src="images/get-started.png" width=150/>|<img src="images/product-datasheet.png" width=150/>|<img src="images/hw-ref.png" width=150/>|
