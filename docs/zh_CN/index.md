@@ -1,17 +1,54 @@
-# Welcome to MkDocs
+![](./image/XRADIOTECHLOGO.png)
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+ 中文 | EN
 
-## Commands
+主页 | [产品](./Products) | [下载](./Download) | [开发指南](./Developer) | [FAQ](./FAQ) | [联系我们](./Home#联系我们) | [购买样品](./Store)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+---
+# 芯之联科技
 
-## Project layout
+深圳芯之联科技有限公司 (Xradio Technology) 成立于2015年，是一家专业从事物联网芯片的研发、设计、销售于一体的高新技术企业，主要产品包括无线连接、无线MCU、无线音频、智能语音等芯片。公司秉承“自主创新，技术领先”的理念，以市场和研发创新为主导，在低功耗低成本CMOS无线射频技术领域深耕钻研，产品广泛应用于平板、OTT盒子、无人机、物联网、智能家居、智能音频、儿童机器人等众多领域。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# 发展历程
+
+* 2012.04 - 组建完整的研发团队
+* 2015.07 - 公司在深圳注册成立
+* 2015.09 - 发布第一颗WiFi连接芯片XR819
+* 2017.06 - 发布第一颗超低功耗无线应用MCU XR871
+* 2017.12 - 发布第一颗WiFi/BT二合一射频芯片XR829
+* 2018.01 - 发布第一颗高性能32位应用微处理器XR32F4
+* 2018.05 - 发布第一颗物联网WiFi控制芯片XR809
+
+# 主要产品
+![](./image/MAINPRODUCTS.png)
+
+# 核心竞争力
+![](./image/core_competitiveness.png)  
+
+# 市场领域
+![](./image/market.png) 
+
+# 联系我们
+电话: (086)-0755-33018031  
+邮箱: service@xradiotech.com  
+地址: 深圳市南山区蛇口南海大道1069号联合大厦13楼  
+
+<html>
+    <body>
+        <a href="https://j.map.baidu.com/90vTO" target="_parent"><img src="./image/LIANHEDASHA.png"></a>
+    </body>
+</html>
+
+# 更多
+wiki主页：https://github.com/XradioTech/xradiotech-wiki/wiki  
+芯片介绍：https://github.com/XradioTech/xradiotech-wiki/wiki/Products  
+模组介绍：https://github.com/XradioTech/xradiotech-wiki/wiki/Products-Module  
+开发板介绍：https://github.com/XradioTech/xradiotech-wiki/wiki/Products-EVB  
+资料下载：https://github.com/XradioTech/xradiotech-wiki/wiki/Download  
+开发指南：https://github.com/XradioTech/xradiotech-wiki/wiki/Developer  
+购买样品：https://github.com/XradioTech/xradiotech-wiki/wiki/Store  
+
+# SDK仓库
+https://github.com/XradioTech/XR871SDK.git  
+https://github.com/XradioTech/XR809SDK.git  
+https://github.com/XradioTech/AliOS-Things.git  
