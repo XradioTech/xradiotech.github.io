@@ -36,12 +36,12 @@ table th:nth-of-type(3) {
 
 ||||
 |:---:|:---:|:--:|
-|<img src="images/get-started.png" width=150/>|<img src="images/product-datasheet.png" width=150/>|<img src="images/hw-ref.png" width=150/>|
-|[快速入门](zh_CN/get-started.md)|[产品手册](zh_CN/api-ref.md)|[硬件参考](zh_CN/hw-ref.md)|
-|<img src="images/sw-guide.png" width=150/>|<img src="images/api-ref.png" width=150/>|<img src="images/product-design.png" width=150/>|
+|<html><body><p><a href="zh_CN/get-started.md"><img src="images/get-started.png" width=150/></a></p></body></html>|<html><body><p><a href="zh_CN/product-datasheet.md"><img src="images/product-datasheet.png" width=150/></a></p></body></html>|<html><body><p><a href="zh_CN/hw-ref.md"><img src="images/hw-ref.png" width=150/></a></p></body></html>|
+|[快速入门](zh_CN/get-started.md)|[产品手册](zh_CN/product-datasheet.md)|[硬件参考](zh_CN/hw-ref.md)|
+|<html><body><p><a href="zh_CN/sw-guide.md"><img src="images/sw-guide.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/api-ref.md"><img src="images/api-ref.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/product-design.md"><img src="images/product-design.png" width=150/></p></body></html>|
 |[软件指南](zh_CN/sw-guide.md)|[API参考](zh_CN/api-ref.md)|[产品设计](zh_CN/product-design.md)|
-|<img src="images/mp-test.png" width=150/>|<img src="images/cert.png" width=150/>|<img src="images/report.png" width=150/>|
-|[生产测试](zh_CN/mp-test.md)|[认证指导](zh_CN/cert.md)|[生产测试](zh_CN/reports.md)|
+|<html><body><p><a href="zh_CN/mp-test.md"><img src="images/mp-test.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/cert.md"><img src="images/cert.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/reports.md"><img src="images/report.png" width=150/></p></body></html>|
+|[生产测试](zh_CN/mp-test.md)|[认证指导](zh_CN/cert.md)|[工程报告](zh_CN/reports.md)|
 
 ## 联系我们
 
