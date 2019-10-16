@@ -51,7 +51,7 @@ table th:nth-of-type(3) {
 
 <html>
     <body>
-        <a href="https://j.map.baidu.com/90vTO" target="_parent"><img src="images/LIANHEDASHA.png"></a>
+        <a href="https://j.map.baidu.com/90vTO" target="_parent"><img src="images/LIANHEDASHA.jpg"></a>
     </body>
 </html>
 
