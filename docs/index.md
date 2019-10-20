@@ -10,34 +10,28 @@
 
 * 2012.04 - 组建完整的研发团队
 * 2015.07 - 公司在深圳注册成立
-* 2015.09 - 发布第一颗WiFi连接芯片XR819
+* 2015.09 - 发布第一颗WiFi连接射频芯片XR819
 * 2017.06 - 发布第一颗超低功耗无线应用MCU XR871
 * 2017.12 - 发布第一颗WiFi/BT二合一射频芯片XR829
 * 2018.01 - 发布第一颗高性能32位应用微处理器XR32F4
 * 2018.05 - 发布第一颗物联网WiFi控制芯片XR809
-* 2018.04 - 发布低功耗极致IoT WiFi MCU XR808
-* 2018.10 - 发布高性能智能WiFi MCU XR872
+* 2019.04 - 发布低功耗极致IoT WiFi MCU XR808
+* 2019.10 - 发布高性能智能WiFi MCU XR872
 
 ## 文档中心说明
 此处是芯之联科技公司及产品文档中心，此处展示深圳芯之联科技有限公司的基本信息，产品手册，硬件参考及开发指南等相关信息，用以帮助和指导希望了解芯之联产品并用之开发相关应用的客户，开发者，学生及发烧友等群体人员。
 
 ## 文档导航
 <style>
-table th:first-of-type {
-	width: 300px;
-}
-table th:nth-of-type(2) {
-	width: 300px;
-}
-table th:nth-of-type(3) {
-	width: 300px;
-}
+table th:first-of-type  { width: 300px; }
+table th:nth-of-type(2) { width: 300px; }
+table th:nth-of-type(3) { width: 300px; }
 </style>
 
 ||||
 |:---:|:---:|:--:|
-|<html><body><p><a href="zh_CN/get-started.md"><img src="images/get-started.png" width=150/></a></p></body></html>|<html><body><p><a href="zh_CN/product-datasheet.md"><img src="images/product-datasheet.png" width=150/></a></p></body></html>|<html><body><p><a href="zh_CN/hw-ref.md"><img src="images/hw-ref.png" width=150/></a></p></body></html>|
-|[快速入门](zh_CN/get-started.md)|[产品手册](zh_CN/product-datasheet.md)|[硬件参考](zh_CN/hw-ref.md)|
+|<html><body><p><a href="zh_CN/get-started/index.md"><img src="images/get-started.png" width=150/></a></p></body></html>|<html><body><p><a href="zh_CN/product-datasheet.md"><img src="images/product-datasheet.png" width=150/></a></p></body></html>|<html><body><p><a href="zh_CN/hw-ref.md"><img src="images/hw-ref.png" width=150/></a></p></body></html>|
+|[快速入门](zh_CN/get-started/index.md)|[产品手册](zh_CN/product-datasheet.md)|[硬件参考](zh_CN/hw-ref.md)|
 |<html><body><p><a href="zh_CN/sw-guide.md"><img src="images/sw-guide.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/api-ref.md"><img src="images/api-ref.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/product-design.md"><img src="images/product-design.png" width=150/></p></body></html>|
 |[软件指南](zh_CN/sw-guide.md)|[API参考](zh_CN/api-ref.md)|[产品设计](zh_CN/product-design.md)|
 |<html><body><p><a href="zh_CN/mp-test.md"><img src="images/mp-test.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/cert.md"><img src="images/cert.png" width=150/></p></body></html>|<html><body><p><a href="zh_CN/reports.md"><img src="images/report.png" width=150/></p></body></html>|
@@ -54,11 +48,3 @@ table th:nth-of-type(3) {
         <a href="https://j.map.baidu.com/90vTO" target="_parent"><img src="images/LIANHEDASHA.jpg"></a>
     </body>
 </html>
-
-
-
-
-
-
-
-
