@@ -8,6 +8,15 @@
 > <img src="../../images/note.png" width=20/> 注意:  
 > 该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理
 
+<style>
+table th:first-of-type  { width: 300px; }
+table tr:first-child {  background-color: grey; }
+table tr:nth-child(2nd) {  background-color: red; }
+</style>
+|<img src="../../images/note.png" width=20/>注意||
+|----|----|
+|该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|sdfdsf|
+
 ## 概述
 ----
 
@@ -15,20 +24,20 @@
 ## 准备工作
 ----
 
-* 了解硬件
+## 了解硬件
 
-* 搭建环境
+## 搭建环境
 
-* 下载SDK
+## 下载SDK
 
-- 编译示例工程
+## 编译示例工程
 
-- 烧录固件
+## 烧录固件
 
-- 调试使用
+## 调试使用
 
-- 创建新工程
+## 创建新工程
 
-- 配置新工程
+## 配置新工程
 
-- 工程小技巧
+## 工程小技巧

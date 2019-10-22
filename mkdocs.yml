@@ -10,7 +10,7 @@ pages:
     - 生产测试: zh_CN/manufature-test/index.md
     - 认证指导: zh_CN/certification/index.md
     - 工程报告: zh_CN/reports/index.md
-theme: readthedocs
+theme: mkdocs-rtd-dropdown
 version: 2
 formats: [pdf]
 
