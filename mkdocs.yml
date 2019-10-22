@@ -1,6 +1,6 @@
 site_name: 芯之联文档中心
 logo: docs/images/XRADIOTECHLOGO.png
-pages:
+nav:
     - 快速入门: zh_CN/get-started/index.md
     - 产品手册: zh_CN/ic-doc/index.md
     - 硬件参考: zh_CN/hardware-reference/index.md
@@ -10,6 +10,4 @@ pages:
     - 生产测试: zh_CN/manufature-test/index.md
     - 认证指导: zh_CN/certification/index.md
     - 工程报告: zh_CN/reports/index.md
-theme: mkdocs-bootswatch
-
-
+theme: readthedocs

@@ -9,13 +9,12 @@
 > 该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理
 
 <style>
-table th:first-of-type  { width: 300px; }
-table tr:first-child {  background-color: grey; }
-table tr:nth-child(2nd) {  background-color: red; }
+table th:first-of-type  { width: 100px; }
+table th:first-child {  background-color: #306688; }
 </style>
-|<img src="../../images/note.png" width=20/>注意||
-|----|----|
-|该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|sdfdsf|
+|<img src="../../images/note.png" width=20/>注意|
+|----|
+|该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
 
 ## 概述
 ----
