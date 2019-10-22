@@ -6,7 +6,6 @@
 此文档旨在指导芯之联无线MCU产品开发者从零开始搭建开发所必须的软硬件开发环境，为开发工作做好准备，并指导其在某一指定平台完成SDK下载，工具安装，工程创建，编译，打包，烧录等一系列流程步骤。
 
 <style>
-table th:first-of-type  { width: 700px; }
 table th:first-child { color: white; background-color: #6ab0de; }
 table td:first-child { background-color: #e7f2fa; }
 </style>
@@ -28,6 +27,8 @@ table td:first-child { background-color: #e7f2fa; }
   * 代码编辑器(VSCode，Ultraedit，Vim等)  
 
 连接示意图如下：  
+![](../../images/PC2MCU.png)
+
 <img src="../../images/PC2MCU.png" width=500/>
 
 # 了解硬件
@@ -79,6 +80,7 @@ cd tools
 wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip
 unzip -o gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip
 ```
+
 |<img src="../../images/note-white.png" width=15/>  注意|
 |----|
 |如果wget和unzip命令执行失败，请点击上面的链接直接下载并解压缩|
