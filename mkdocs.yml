@@ -11,4 +11,6 @@ pages:
     - 认证指导: zh_CN/certification/index.md
     - 工程报告: zh_CN/reports/index.md
 theme: readthedocs
-article_nav_bottom: true
+version: 2
+formats: [pdf]
+
