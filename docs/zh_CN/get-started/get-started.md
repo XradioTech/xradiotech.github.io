@@ -18,23 +18,23 @@ table td:first-child { background-color: #e7f2fa; }
 
 # 准备工作
 * 硬件
-  * 一块XR872开发板
-  * 一根USB转UART线 (建议采用CH340芯片平台)
-  * PC (Windows，Linux或MacOS)
+  - 一块XR872开发板  
+  - 一根USB转UART线 (建议采用CH340芯片平台)  
+  - PC (Windows，Linux或MacOS)  
 
 * 软件
-  * 工具链及编译工具(gcc, make等)
-  * git工具
-  * 代码编辑器(VSCode，Ultraedit，Vim等)
+  * 工具链及编译工具(gcc, make等)  
+  * git工具  
+  * 代码编辑器(VSCode，Ultraedit，Vim等)  
 
 连接示意图如下：  
 <img src="../../images/PC2MCU.png" width=500/>
 
 # 了解硬件
 请点击下方链接，了解有关具体开发板的详细信息。
-* [XR872_EVB_IO](xr872_evb_io.md)
-* [XR872_EVB_AUDIO](xr872_evb_AI.md)
-* [XR808_EVB_IO](xr808_evb_io.md)
+* [XR872_EVB_IO](xr872_evb_io.md)  
+* [XR872_EVB_AUDIO](xr872_evb_AI.md)  
+* [XR808_EVB_IO](xr808_evb_io.md)  
 
 # 搭建环境
 ## Linux平台搭建
