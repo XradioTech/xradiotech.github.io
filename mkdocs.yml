@@ -11,6 +11,5 @@ pages:
     - 认证指导: zh_CN/certification/index.md
     - 工程报告: zh_CN/reports/index.md
 theme: mkdocs-rtd-dropdown
-version: 2
-formats: [pdf]
+
 
