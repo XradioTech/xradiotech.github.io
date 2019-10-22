@@ -9,6 +9,7 @@
 table th:first-child { color: white; background-color: #6ab0de; }
 table td:first-child { background-color: #e7f2fa; }
 </style>
+
 |<img src="../../images/note-white.png" width=15/>  注意|
 |----|
 |该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
@@ -17,29 +18,27 @@ table td:first-child { background-color: #e7f2fa; }
 
 # 准备工作
 * 硬件
-  - 一块XR872开发板  
-  - 一根USB转UART线 (建议采用CH340芯片平台)  
-  - PC (Windows，Linux或MacOS)  
+    * 一块XR872开发板  
+    * 一根USB转UART线 (建议采用CH340芯片平台)  
+    * PC (Windows，Linux或MacOS)  
 
 * 软件
-  * 工具链及编译工具(gcc, make等)  
-  * git工具  
-  * 代码编辑器(VSCode，Ultraedit，Vim等)  
+    * 工具链及编译工具(gcc, make等)  
+    * git工具  
+    * 代码编辑器(VSCode，Ultraedit，Vim等)  
 
 连接示意图如下：  
 ![](../../images/PC2MCU.png)
 
-<img src="../../images/PC2MCU.png" width=500/>
-
 # 了解硬件
-请点击下方链接，了解有关具体开发板的详细信息。
-* [XR872_EVB_IO](xr872_evb_io.md)  
-* [XR872_EVB_AUDIO](xr872_evb_AI.md)  
-* [XR808_EVB_IO](xr808_evb_io.md)  
+请点击下方链接，了解有关具体开发板的详细信息。  
+    * [XR872_EVB_IO](xr872_evb_io.md)  
+    * [XR872_EVB_AI](xr872_evb_AI.md)  
+    * [XR808_EVB_IO](xr808_evb_io.md)  
 
 # 搭建环境
 ## Linux平台搭建
-以Ubuntu为代表系统说明如下：
+以Ubuntu为代表系统说明如下：  
 1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
 ```
 sudo apt-get install cmake git python python-pip vim
