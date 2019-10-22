@@ -2,6 +2,17 @@ site_name: 芯之联文档中心
 logo: images/XRADIOTECHLOGO.png
 nav:
     - 快速入门: zh_CN/get-started/index.md
+        - 概述: zh_CN/get-started/index.md#概述
+        - 准备工作: zh_CN/get-started/index.md#准备工作
+            - 1. 了解硬件: zh_CN/get-started/index.md#了解硬件
+            - 2. 搭建环境: zh_CN/get-started/index.md#搭建环境
+            - 3. 下载SDK: zh_CN/get-started/index.md#下载SDK
+            - 4. 编译示例工程: zh_CN/get-started/index.md#编译示例工程
+            - 5. 烧录固件: zh_CN/get-started/index.md#烧录固件
+            - 6. 调试使用: zh_CN/get-started/index.md#调试使用
+            - 7. 创建新工程: zh_CN/get-started/index.md#创建新工程
+            - 8. 配置新工程: zh_CN/get-started/index.md#配置新工程
+            - 9. 工程小技巧: zh_CN/get-started/index.md#工程小技巧
     - 产品手册: zh_CN/ic-doc/index.md
     - 硬件参考: zh_CN/hardware-reference/index.md
     - 软件指南: zh_CN/software-guide/index.md
