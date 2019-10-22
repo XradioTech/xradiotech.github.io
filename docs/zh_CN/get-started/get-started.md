@@ -43,7 +43,6 @@ table td:first-child { background-color: #e7f2fa; }
 ```
 sudo apt-get install cmake git python python-pip vim
 ```
-
 2. 创建工作目录并下载SDK  
 ```
 mkdir xradiotech
@@ -51,7 +50,6 @@ cd xradiotech
 git clone https://github.com/XradioTech/xradio-skylark-sdk.git
 ```
 此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk  
-
 3. 创建工具目录，并下载gcc工具  
 ```
 cd xradiotech
@@ -66,7 +64,6 @@ tar -xf gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
      * 从Cygwin官方网站下载Cygwin终端setup-x86.exe
      * 运行setup-x86.exe安装Cygwin工具包（**注意：安装路径不要包含中文路径或者空格**）
      * 在安装包选项选择想要安装的工具包（**cmake, git, wget, binutils， python, python-pip， zip, unzip, vim**等）
-
 2. 运行Cygwin Terminal进入到终端程序，进入到工程目录（自己选择），创建工程目录，并下载SDK
 ```
 mkdir xradiotech
@@ -74,7 +71,6 @@ cd xradiotech
 git clone https://github.com/XradioTech/xradio-skylark-sdk.git
 ```
 此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk  
-
 3. 创建工具目录，并下载gcc工具
 ```
 cd xradiotech
