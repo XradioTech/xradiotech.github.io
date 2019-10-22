@@ -1,6 +1,6 @@
 site_name: 芯之联文档中心
 logo: images/XRADIOTECHLOGO.png
-nav:
+page:
     - 快速入门: zh_CN/get-started/index.md
         - 概述: zh_CN/get-started/index.md#概述
         - 准备工作: zh_CN/get-started/index.md#准备工作
