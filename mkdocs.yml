@@ -2,9 +2,9 @@ site_name: 芯之联文档中心
 logo: docs/images/XRADIOTECHLOGO.png
 pages:
     - 快速入门:
-        - '概述': 'zh_CN/get-started/index.md##概述'
+        - '概述': 'zh_CN/get-started/index#概述'
         - '准备工作':
-            - '1. 了解硬件': 'zh_CN/get-started/index.md###了解硬件'
+            - '1. 了解硬件': 'zh_CN/get-started/index#了解硬件'
             - '2. 搭建环境': 'zh_CN/get-started/index.md#搭建环境'
             - '3. 下载SDK':  'zh_CN/get-started/index.md#下载SDK'
             - '4. 编译示例工程': 'zh_CN/get-started/index.md#编译示例工程'
