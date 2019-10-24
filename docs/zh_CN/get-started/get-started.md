@@ -5,11 +5,6 @@
 
 此文档旨在指导芯之联无线MCU产品开发者从零开始搭建开发所必须的软硬件开发环境，为开发工作做好准备，并指导其在某一指定平台完成SDK下载，工具安装，工程创建，编译，打包，烧录等一系列流程步骤。
 
-<style>
-table th:first-child { color: white; background-color: #6ab0de; }
-table td:first-child { background-color: #e7f2fa; }
-</style>
-
 |<img src="../../images/note-white.png" width=15/>  注意|
 |----|
 |该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
@@ -63,7 +58,7 @@ cd tools
 wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
 tar -xf gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
 ```
-## Windows平台
+## Windows平台搭建
 1. 安装Cygwin工具
      * 从Cygwin官方网站下载Cygwin终端setup-x86.exe
      * 运行setup-x86.exe安装Cygwin工具包（**注意：安装路径不要包含中文路径或者空格**）
