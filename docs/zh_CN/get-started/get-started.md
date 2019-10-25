@@ -9,7 +9,7 @@
 table th:first-of-type  { width: 300px; }
 </style>
 
-|<img src="../../images/note-white.png" width=15/>  注意|
+|<img src="../../images/note-white.png" width=15/>  注意<html><body><p><a href="zh_CN/get-started/get-started.md"><img src="images/note-white.png" width=150/></a></p></body></html>|
 |:---- |
 |该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
 
