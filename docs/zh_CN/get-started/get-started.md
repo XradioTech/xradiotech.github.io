@@ -7,16 +7,10 @@
 
 <style>
 table th:first-of-type  { width: 300px; }
-table th:first-child { color: white; background-color: #6ab0de; }
-table td:first-child { background-color: #e7f2fa; }
 </style>
 
 |<img src="../../images/note-white.png" width=15/>  注意|
-|----|
-|该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
-
-|<img src="../../images/note.png" width=15/>  注意|
-| ---- |
+|:---- |
 |该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
 
 ![](../../images/note.png)注意
