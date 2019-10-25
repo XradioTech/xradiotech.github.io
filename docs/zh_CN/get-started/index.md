@@ -58,13 +58,13 @@ table td:first-child { background-color: #e7f2fa; }
 
 3. 创建工具目录，并下载gcc工具
 
-    ```
+    `````
     cd xradiotech
     mkdir tools
     cd tools
     wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
     tar -xf gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
-    ```
+    `````
 
 ## Windows平台搭建
 1. 安装Cygwin工具
