@@ -12,7 +12,7 @@ table th {
     color: white;
 }
 table tbody tr:nth-child(2n) {
-    background: rgba(66,66,66,0.12); 
+    background: rgba(22,22,22,1); 
 }
 table th {
     white-space: nowrap; /*表头内容强制在一行显示*/
