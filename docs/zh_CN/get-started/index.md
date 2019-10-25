@@ -18,7 +18,7 @@ table td:first-child { background-color: #e7f2fa; }
 
 # 准备工作
 * 硬件
-    * 一块XR872开发板
+    * 一块开发板
     * 一根USB转UART线 (建议采用CH340芯片平台)
     * PC (Windows，Linux或MacOS)
 
@@ -54,17 +54,16 @@ table td:first-child { background-color: #e7f2fa; }
     cd xradiotech
     git clone https://github.com/XradioTech/xradio-skylark-sdk.git
     ```
-    此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk  
+
+    此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk
 
 3. 创建工具目录，并下载gcc工具
 
-    `````
-     cd xradiotech
-     mkdir tools
-     cd tools
-     wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
-     tar -xf gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
-    `````
+    cd xradiotech
+    mkdir tools
+    cd tools
+    wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
+    tar -xf gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
 
 ## Windows平台搭建
 1. 安装Cygwin工具
