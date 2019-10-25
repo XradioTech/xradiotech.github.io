@@ -4,7 +4,7 @@ site_favicon: XRADIOTECHLOGO.ico
 logo: images/XRADIOTECHLOGO.png
 nav:
     - 文档主页: index.md
-    - 快速入门: zh_CN/get-started/get-started.md
+    - 快速入门: zh_CN/get-started/index.md
     - 产品手册: zh_CN/ic-doc/index.md
     - 硬件参考: zh_CN/hardware-reference/index.md
     - 软件指南: zh_CN/software-guide/index.md
