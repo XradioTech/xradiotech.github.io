@@ -10,7 +10,8 @@ table { width: 100%; }
 table th {
     font-weight: bold; /*加粗*/
     text-align: left !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(158,188,255,0.2); /*背景色*/
+    background: rgba(200,188,255,0.2); /*背景色*/
+    color: white;
 }
 table tbody tr:nth-child(2n) {
     background: rgba(158,188,226,0.12); 
@@ -194,7 +195,8 @@ make image
   2. 选择固件和串口，点击升级
   3. 等待完成
 
-附：进入升级模式的方法  
+附：进入升级模式的方法
+
 |场景|进入升级模式方法|适用平台|
 | ---- | ---- | ---- |
 |裸片(flash为空片)|上电后将自动进入升级模式|所有平台|
