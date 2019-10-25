@@ -11,7 +11,7 @@ table th:first-child { color: white; background-color: #6ab0de; }
 table td:first-child { background-color: #e7f2fa; }
 </style>
 
-|<img src="../../images/note.png" width=18>![](../../images/note-white-15.png)注意|
+|<img src="../../images/note.png" width=18> 注意|
 |:---- |
 |该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
 
@@ -40,10 +40,12 @@ table td:first-child { background-color: #e7f2fa; }
 # 搭建环境
 ## Linux平台搭建
 以Ubuntu为代表系统说明如下：
+
 1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
 ```
 sudo apt-get install cmake git python python-pip vim
 ```
+
 2. 创建工作目录并下载SDK
 ```
 mkdir xradiotech
@@ -51,6 +53,7 @@ cd xradiotech
 git clone https://github.com/XradioTech/xradio-skylark-sdk.git
 ```
 此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk
+
 3. 创建工具目录，并下载gcc工具
 ```
 cd xradiotech
@@ -80,7 +83,7 @@ wget https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc
 unzip -o gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip
 ```
 
-|<img src="../../images/note-white.png" width=15/>  注意|
+|<img src="../../images/note.png" width=18> 注意|
 |----|
 |如果wget和unzip命令执行失败，请点击上面的链接直接下载并解压缩|
 
