@@ -32,7 +32,8 @@ table td:first-child { background-color: #e7f2fa; }
 ![](../../images/PC2MCU.png)
 
 # 了解硬件
-请点击下方链接，了解有关具体开发板的详细信息。  
+请点击下方链接，了解有关具体开发板的详细信息。
+
 * [XR872_EVB_IO](xr872_evb_io.md)
 * [XR872_EVB_AI](xr872_evb_AI.md)
 * [XR808_EVB_IO](xr808_evb_io.md)
@@ -44,15 +45,15 @@ table td:first-child { background-color: #e7f2fa; }
 1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
 ```
 sudo apt-get install cmake git python python-pip vim
-```
+```  
 
 2. 创建工作目录并下载SDK
 ```
 mkdir xradiotech
 cd xradiotech
 git clone https://github.com/XradioTech/xradio-skylark-sdk.git
-```
-此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk
+```  
+此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk  
 
 3. 创建工具目录，并下载gcc工具
 ```
