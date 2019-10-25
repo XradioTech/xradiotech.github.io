@@ -399,7 +399,7 @@ SECTIONS
 
 ## 创建新工程及配置
 ##### 1. 新建工程
-新工程的创建可参考“project”目录下的已有工程。首先需要给工程起个有意义的名字，并以该名字作为工程目录。工程名字建议和项目相关，例如“storyteller”
+新工程的创建可参考“project”目录下的已有工程。首先需要给工程起个有意义的名字，并以该名字作为工程目录，工程名字建议和项目相关，例如“storyteller”，此处我们新建工程foo，后续步骤均以此工程为基础。
 
 *例：以hello_demo为基础创建foo工程*
 
@@ -417,10 +417,10 @@ cp -r project/demo/hello_demo project/foo
 *例：以xradio_evb为基础为新工程“foo”创建板级配置“bar_evb”*
 
 ```
-cp -r project/common/board/xradio_evb project/foo/bar_evb
+cp -r project/common/board/xradio_evb project/common/board/bar_evb
 ```
 
-然后修改`project/common/board/foo/board_config.c`中的pinmux配置，使之与PCB设计相符。
+然后修改`project/common/board/foo_board/board_config.c`中的pinmux配置，使之与PCB设计相符。
 
 配置文件示例如下：
 ![](../../images/gpio.png)
@@ -439,7 +439,7 @@ cp -r project/common/board/xradio_evb project/foo/bar_evb
 |1. PINMUX功能不能冲突，否则只会按照最后调用设置，运行不会报错<br>2. 不使用的模块如UART2的PINMUX请将配置行注释|
 
 *例：注释掉不用的配置*
-```
+```C
 static const GPIO_PinMuxParam g_pinmux_uart2[] = {
 //    { GPIO_PORT_A, GPIO_PIN_22, { GPIOA_P22_F2_UART2_TX,  GPIO_DRIVING_LEVEL_1, GPIO_PULL_UP } }, /* TX */
 //    { GPIO_PORT_A, GPIO_PIN_21, { GPIOA_P21_F2_UART2_RX,  GPIO_DRIVING_LEVEL_1, GPIO_PULL_UP } }, /* RX */
@@ -447,6 +447,98 @@ static const GPIO_PinMuxParam g_pinmux_uart2[] = {
 //    { GPIO_PORT_A, GPIO_PIN_19, { GPIOA_P19_F2_UART2_RTS,  GPIO_DRIVING_LEVEL_1, GPIO_PULL_DOWN } }, /* RTS */
 };
 ```
+
+##### 3. 创建工程链接脚本
+以`project/linker_script/gcc/appos.ld`为范本创建本工程链接脚本
+
+```
+cp project/linker_script/gcc/appos.ld project/foo/gcc/appos.ld
+```
+
+然后根据自己的需求进行修改
+
+##### 4. 创建工程镜像配置文件
+以`project/image_cfg/image.cfg`为范本创建本工程镜像配置文件
+
+```
+cp project/image_cfg/image.cfg project/foo/image/XR872/image.cfg
+```
+|![](../../images/note-white-18.png) 注意|
+|:---- |
+|image.cfg需要放置对应的chip型号的目录下，该型号由make config配置选择|
+
+然后根据自己的实际情况进行修改
+
+##### 5. 修改工程localconfig.mk
+修改project/foo/gcc/localconfig.mk，假设该工程使用了XPLAERY，XIP，OTA功能，则配置如下：
+
+```makefile
+# enable/disable xplayer, default to n
+export __CONFIG_XPLAYER := y
+
+# enable/disable XIP, default to y
+export __CONFIG_XIP := y
+
+# enable/disable OTA, default to n
+export __CONFIG_OTA := y
+```
+
+##### 6. 修改工程Makefile
+修改`project/foo/gcc/Makefile`，主要用于指定工程的板级配置、源文件、链接脚本、镜像配置文件等，包括`ROOT_PATH`、`PRJ_ROOT_PATH`、`PRJ_BOARD`、`SRCS`、`LINKER_SCRIPT`、`IMAGE_CFG`等，
+
+*例，foo工程相关文件结构如下：*
+
+```
+project/foo/
+├── bar_evb
+│   ├── board_config.c
+│   └── board_config.h
+├── command.c
+├── command.h
+├── gcc
+│   ├── appos.ld
+│   ├── localconfig.mk
+│   └── Makefile
+├── image
+│   └── xr872
+│       └── image.cfg
+├── main.c
+└── prj_config.h
+```
+
+则对应的Makefile配置为
+
+```makefile
+# 定义SDK根目录
+ROOT_PATH := ../../..
+
+# 定义工程根目录
+PRJ_ROOT_PATH := $(ROOT_PATH)/project/$(PROJECT)
+
+# 定义板级配置文件目录
+PRJ_BOARD := $(PRJ_ROOT_PATH)/bar_evb
+
+# 定义工程源文件，需要根据具体工程的源代码结构进行源代码指定
+SRCS := $(basename $(foreach dir,$(DIRS),$(wildcard $(dir)/*.[csS])))
+
+# 定义链接脚本
+LINKER_SCRIPT := ./appos.ld
+
+# 定义镜像配置文件
+IMAGE_CFG := ./image.cfg
+```
+
+##### 7. 修改工程配置prj_config.h
+`prj_config.h`主要对工程运行时的一些条件进行配置，主要包括：
+
+  * PRJCONF_MAIN_THREAD_STACK_SIZE - 主栈大小
+  * 模块使能选择，如PRJCONF_WDG_EN，PRJCONF_SPI_EN
+  * MAC来源选择，如PRJCONF_MAC_ADDR_SOURCE
+
+具体定义请参考代码。
+
+##### 8. 选择控制台命令集
+工程`command.c`定义了本工程可用的控制台命令。具体工程可根据需求增加或删除命令，SDK支持的所有命令在`project/common/cmd/`目录下实现，用户也可以自定义新命令。
 
 ## 工程小技巧
 
