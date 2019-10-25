@@ -8,11 +8,11 @@ table { width: 100%; }
 table th {
     font-weight: bold; /*加粗*/
     text-align: left !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(158,188,226,0.5); /*背景色*/
+    background: rgba(66,66,66,0.5); /*背景色*/
     color: white;
 }
 table tbody tr:nth-child(2n) {
-    background: rgba(158,188,226,0.12); 
+    background: rgba(66,66,66,0.12); 
 }
 table th {
     white-space: nowrap; /*表头内容强制在一行显示*/
@@ -210,6 +210,49 @@ make image
 启动后打印信息查看系统运行状况，并通过控制台命令来辅助才做相关行为，控制台命令请参考[<控制台命令集成与命令集参考>]()
 
 ## 目录结构及工程配置
+##### 1. SDK目录结构
+
+```
+.
+├── bin                        	# bin文件目录，存放预置bin文件
+├── chip.mk
+├── config.mk
+├── gcc.mk
+├── include                   	# 头文件目录，存放模块对外头文件
+├── lib                        	# 库文件目录，存放预置库文件和编译生成的库文件
+│   ├── libaac.a
+│   ├── libadt.a
+│   └── ......
+├── project                    	# 工程总目录
+│   ├── bootloader           	# bootloader工程
+│   ├── common                	# 工程公用代码
+│   ├── demo                  	# 演示工程总目录，该目录下每个目录对应一个工程
+│   │   ├── hello_demo
+│   │   ├── wlan_demo
+│   │   └── ......
+│   ├── example               	# 示例工程总目录，该目录下每个目录对应一个工程
+│   │   ├── uart
+│   │   ├── wlan
+│   │   └── ......
+│   ├── image_cfg
+│   │   └── image.cfg         	# 默认镜像配置文件
+│   ├── linker_script
+│   │   └── gcc
+│   │       ├── appos.ld      	# 工程默认链接脚本
+│   │       └── bootloader.ld	# bootloader链接脚本
+│   ├── project.mk
+│   └── ......
+├── src
+│   ├── driver
+│   │   ├── chip              	# 芯片外设驱动
+│   │   └── component         	# 扩展外设驱动
+│   ├── image                 	# image模块
+│   ├── kernel                	# 内核
+│   ├── ota                  	# OTA模块
+│   └── ......
+├── ......
+└── tools                     	# 镜像打包及烧录等工具
+```
 
 ## 创建新工程
 
