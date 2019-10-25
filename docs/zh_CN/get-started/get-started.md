@@ -8,6 +8,7 @@
 <style>
 table th:first-of-type  { width: 300px; }
 </style>
+<img src="../../images/note-white.png" width=30/>
 
 |<img src="../../images/note-white.png" width=15/>  注意<html><body><p><a href="zh_CN/get-started/get-started.md"><img src="../../images/note-white.png" width=150/></a></p></body></html>|
 |:---- |
