@@ -10,7 +10,7 @@ table { width: 100%; }
 table th {
     font-weight: bold; /*加粗*/
     text-align: left !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(200,188,255,0.2); /*背景色*/
+    background: rgba(106,176,255,0.3); /*背景色*/
     color: white;
 }
 table tbody tr:nth-child(2n) {
