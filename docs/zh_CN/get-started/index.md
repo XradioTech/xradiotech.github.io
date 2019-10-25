@@ -43,13 +43,13 @@ table td:first-child { background-color: #e7f2fa; }
 
 1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
 
-    ```bash
+    ```
     sudo apt-get install cmake git python python-pip vim
     ```
 
 2. 创建工作目录并下载SDK
 
-    ```bash
+    ```
     mkdir xradiotech
     cd xradiotech
     git clone https://github.com/XradioTech/xradio-skylark-sdk.git
@@ -58,7 +58,7 @@ table td:first-child { background-color: #e7f2fa; }
 
 3. 创建工具目录，并下载gcc工具
 
-    ```bash
+    ```
     cd xradiotech
     mkdir tools
     cd tools
