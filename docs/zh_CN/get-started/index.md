@@ -3,14 +3,12 @@
 
 [[English]](index-en.md)
 
-此文档旨在指导芯之联无线MCU产品开发者从零开始搭建开发所必须的软硬件开发环境，为开发工作做好准备，并指导其在某一指定平台完成SDK下载，工具安装，工程创建，编译，打包，烧录等一系列流程步骤。
-
 <style>
 table { width: 100%; }
 table th {
     font-weight: bold; /*加粗*/
     text-align: left !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(66,66,66,0.5); /*背景色*/
+    background: rgba(158,188,226,0.5); /*背景色*/
     color: white;
 }
 table tbody tr:nth-child(2n) {
@@ -19,16 +17,15 @@ table tbody tr:nth-child(2n) {
 table th {
     white-space: nowrap; /*表头内容强制在一行显示*/
 }
-table td:nth-child(1) {
-    white-space: nowrap; 
-}
 </style>
+
+# 概述
+
+此文档旨在指导芯之联无线MCU产品开发者从零开始搭建开发所必须的软硬件开发环境，为开发工作做好准备，并指导其在某一指定平台完成SDK下载，工具安装，工程创建，编译，打包，烧录等一系列流程步骤。
 
 |![](../../images/note-white-18.png) 注意|
 |:---- |
 |该文档中提到的一系列步骤具有普适性，适用于XR808，XR872等各无线MCU SDK平台，示例为了方便选取其一，其他平台需要根据其硬件及软件定义灵活处理|
-
-# 概述
 
 # 准备工作
 * 硬件
@@ -204,7 +201,15 @@ make image
 |正在运行的系统|方法1：控制台输入“upgrade”+回车，系统会重启并进入升级模式<br>方法2：断开控制台，设置好PhoenixMC，直接选择“升级固件”，工具会发送方法1中的命令使设备进入升级模式|所有平台|
 |任何场景强制升级|步骤：<br>1. 拉低CHIP-PWD复位芯片<br>2. 拉低PB2,PB3到低电平<br>3. 松开CHIP-PWD使芯片运行，然后释放PB2,PB3<br>此时芯片强制进入升级模式|所有平台|
 
+##### 4. Linux平台烧录
+烧录固件使用`xradio-skylark-sdk/tools/phoenixMC`命令行工具进行烧写，工具配置见setting.ini文件
+
 ## 调试使用
+*注：XRADIOTECH的MCU平台仅支持串口打印信息辅助调试，暂不支持Keil，IAR等IDE集成开发环境*
+
+启动后打印信息查看系统运行状况，并通过控制台命令来辅助才做相关行为，控制台命令请参考[<控制台命令集成与命令集参考>]()
+
+## 目录结构及工程配置
 
 ## 创建新工程
 
