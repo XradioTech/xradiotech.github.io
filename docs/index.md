@@ -1,8 +1,6 @@
 
 ![](images/XRADIOTECHLOGO.png)
 
-# XRADIOTECH文档中心
-
 [[English]](index-en.md)
 
 ## 芯之联简介
