@@ -98,7 +98,7 @@ unzip -o gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip
 |如果wget和unzip命令执行失败，请点击上面的链接直接下载并解压缩|
 
 ## 编译示例工程
-
+##### 1. 选择工程 `project/demo/wlan_demo`, 
 ## 烧录固件
 
 ## 调试使用
