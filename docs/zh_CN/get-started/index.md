@@ -5,10 +5,6 @@
 
 此文档旨在指导芯之联无线MCU产品开发者从零开始搭建开发所必须的软硬件开发环境，为开发工作做好准备，并指导其在某一指定平台完成SDK下载，工具安装，工程创建，编译，打包，烧录等一系列流程步骤。
 
-<img src="../../images/note-white-15.png">
-<img src="../images/note-white-15.png">
-<img src="images/note-white-15.png">
-
 <style>
 table th:first-of-type  { width: 300px; }
 table th:first-child { color: white; background-color: #6ab0de; }
