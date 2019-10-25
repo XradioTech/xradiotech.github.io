@@ -1,8 +1,9 @@
-site_name: [芯之联文档中心](index.md)
+site_name: 芯之联文档中心
 repo_url: https://github.com/XradioTech/xradiotech.github.io
 site_favicon: XRADIOTECHLOGO.ico
 logo: images/XRADIOTECHLOGO.png
 nav:
+    - 文档主页: index.md
     - 快速入门: zh_CN/get-started/get-started.md
     - 产品手册: zh_CN/ic-doc/index.md
     - 硬件参考: zh_CN/hardware-reference/index.md
