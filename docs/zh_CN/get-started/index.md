@@ -41,23 +41,22 @@ table td:first-child { background-color: #e7f2fa; }
 ## Linux平台搭建
 以Ubuntu为代表系统说明如下：
 
-1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
+##### 1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
 
-    ```
-    sudo apt-get install cmake git python python-pip vim
-    ```
+```
+sudo apt-get install cmake git python python-pip vim
+```
 
-2. 创建工作目录并下载SDK
+##### 2. 创建工作目录并下载SDK
 
 ```
     mkdir xradiotech
     cd xradiotech
     git clone https://github.com/XradioTech/xradio-skylark-sdk.git
 ```
+此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk
 
-    此时芯之联无线MCU SDK将会下载到xradiotech的目录下，仓库名为xradio-skylark-sdk
-
-1. 创建工具目录，并下载gcc工具
+##### 3. 创建工具目录，并下载gcc工具
 
 ```
     cd xradiotech  
