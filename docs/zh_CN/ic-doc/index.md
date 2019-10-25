@@ -5,6 +5,22 @@
 
 # 芯片概览
 
+|&emsp;&emsp;&emsp;&emsp;&emsp;|XR809|XR871ET|XR871GT|XR872AT|XR872ET|
+|:---|:---|:---|:---|:---|:---|
+|CPU| Cortex-M4F| Cortex-M4F| Cortex-M4F| Cortex-M4F| Cortex-M4F|
+|CPU频率| 160MHz| 192MHz| 192MHz| 384MHz| 384MHz|
+|SRAM| 384KB| 448KB| 448KB| 416KB| 416KB|
+|PSRAM| -| -| -| 4MB| -|
+|FLASH| 16Mbit| -| -| -| -|
+|WiFi| 2.4G 802.11b/g/n<br>HT20| 2.4G 802.11b/g/n<br>HT20| 2.4G 802.11b/g/n<br>HT20| 2.4G 802.11b/g/n<br>HT20| 2.4G 802.11b/g/n<br>HT20|
+|电源| 2.7-5.5V| 2.7-5.5V| 2.7-5.5V| 1.8 -5.5V| 1.8 -5.5V|
+|封装| QFN52, 6x6| QFN52, 6x6| QFN52, 6x6| QFN52, 6x6| QFN40, 5x5|
+|时钟| 24MHz/26MHz| 24MHz| 24MHz<br>32768| 40MHz<br>32768| 40MHz|
+|工作温度| -40~85℃| -40~85℃| -40~85℃| -40~85℃| -40~85℃|
+|接口|GPIO x 23<br>UART x 2<br>SPI x 2<br>I2C x1<br>PWM x4<br>ADC x3<br>SDIO x 1<br>IR TX/RX<br><br><br><br>|GPIO x 31<br>UART x 3<br>SPI x 2<br>I2C x2<br>PWM x8<br>ADC x8<br>SDIO x 1<br>IR TX/RX<br>I2S x 1<br>DMIC x1<br>CSI x1|GPIO x 31<br>UART x 3<br>SPI x 2<br>I2C x2<br>PWM x8<br>ADC x8<br>SDIO x 1<br>IR TX/RX<br>I2S x 1<br>DMIC x1<br>CSI x1|GPIO x 35<br>UART x 3<br>SPI x 2<br>I2C x2<br>PWM x8<br>ADC x8<br>SDIO x 1<br>IR TX/RX<br>I2S x 1<br>DMIC x1<br>CSI x1| GPIO x 27<br>UART x 3<br>SPI x 2<br>I2C x2<br>PWM x8<br>ADC x3<br>SDIO x 1<br>IR TX/RX<br>CSI x1|
+|音频| -| 外部扩展| 外部扩展|24bit mono adc x 1<br>24bit mono dac x 1<br>linein x 1| 24bit mono adc x 1<br>24bit mono dac x 1|
+|图像| -| 外部扩展| 外部扩展|JPEG Encoder<br>1920x1088<br>640x480@30fps| JPEG Encoder<br>1920x1088<br>640x480@30fps|
+
 
 # 数据手册下载
 
@@ -12,9 +28,9 @@
 | ------------------------------------------------------------ | :---: | :---: | ------------- |
 | [XR808_Product_Brief.pdf](../../pdf/XR808/XR808_Product_Brief.pdf) | XR808    | V1.0     | XR808简要介绍 |
 | [XR808_PIN_Multiplexing.pdf](../../pdf/XR808/XR808_PIN_Multiplexing_V1_0_20190726.pdf) | XR808    | V1.0     | XR808IO功能表 |
-| [XR808_Datasheet.pdf](../../pdf/XR808/XR808_Datasheet_V0.1.pdf) | XR808    | V1.0     | XR808芯片规格书 |
+| [XR808_Datasheet.pdf](../../pdf/XR808/XR808_Datasheet_V0.3.pdf) | XR808    | V0.3     | XR808芯片规格书 |
 | [XR872_Product_Brief.pdf](../../pdf/XR872/XR872_Product_Brief.pdf) | XR872    | V1.0     | XR872简要介绍 |
 | [XR872_PIN_Multiplexing.pdf](../../pdf/XR872/XR872_PIN_Multiplexing_V1_0_20190726.pdf) | XR872    | V1.0     | XR872IO功能表 |
-| [XR872_Datasheet.pdf](../../pdf/XR872/XR872_Datasheet_V0.1.pdf) | XR872    | V1.0     | XR872芯片规格书 |
+| [XR872_Datasheet.pdf](../../pdf/XR872/XR872_Datasheet_V0.3.pdf) | XR872    | V0.3     | XR872芯片规格书 |
 
 
