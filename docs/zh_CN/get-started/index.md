@@ -10,7 +10,7 @@ table { width: 100%; }
 table th {
     font-weight: bold; /*加粗*/
     text-align: left !important; /*内容居中，加上 !important 避免被 Markdown 样式覆盖*/
-    background: rgba(106,176,255,0.3); /*背景色*/
+    background: rgba(66,66,66,0.5); /*背景色*/
     color: white;
 }
 table tbody tr:nth-child(2n) {
@@ -149,6 +149,7 @@ make image
 ![](../../images/make-image.png)
 
 附：
+
 |命令|行为|
 | ---- | ---- |
 |make config | 配置工程平台芯片型号及板级晶振选型，目前主要包括XR872和XR808平台，配置完成后将在xradio-skylark-sdk目录下生成.config文件<br>*注:在编译之前必须执行，否则无法编译* |
