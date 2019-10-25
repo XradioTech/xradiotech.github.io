@@ -44,7 +44,7 @@ table td:first-child { background-color: #e7f2fa; }
 ##### 1. 打开终端窗口，安装开发相关工具，在终端窗口输入以下命令
 
 ```bash
-sudo apt-get install cmake git python python-pip vim
+sudo apt-get install cmake git python python-pip vim wget
 ```
 
 ##### 2. 创建工作目录并下载SDK
@@ -95,7 +95,7 @@ unzip -o gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip
 
 |![](../../images/note-white-18.png) 注意|
 |----|
-|如果wget和unzip命令执行失败，请点击上面的链接直接通过浏览器下载到tools目录使用相关的工具解压缩|
+|如果wget和unzip命令执行失败，请点击上面的链接直接通过浏览器下载到tools目录使用相关的工具解压|
 
 ## 编译示例工程
 ##### 1. 配置gcc路径
@@ -135,6 +135,7 @@ make image
 ![](../../images/make-image.png)
 
 ## 烧录固件
+烧录固件使用`xradio-skylark-sdk/tools/PhoenixMC.exe`工具
 
 ## 调试使用
 
