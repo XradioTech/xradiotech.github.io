@@ -7,7 +7,7 @@ nav:
     - 快速入门: zh_CN/get-started/index.md
     - 产品手册: zh_CN/ic-doc/index.md
     - 硬件参考: zh_CN/hardware-reference/index.md
-    - 软件指南: zh_CN/software-guide/index.md
+    - 开发指南: zh_CN/software-guide/index.md
     - API参考: zh_CN/api-reference/index.md
     - 产品设计: zh_CN/product-design-guide/index.md
     - 生产测试: zh_CN/manufature-test/index.md
