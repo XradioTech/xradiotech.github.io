@@ -14,3 +14,13 @@ nav:
     - 认证指导: zh_CN/certification/index.md
     - 工程报告: zh_CN/reports/index.md
 theme: readthedocs
+
+pages:
+- ['index.md', '文档主页']
+- ['zh_CN/get-started/index.md', '快速入门']
+- ['zh_CN/ic-doc/index.md', '快速入门']
+- ['zh_CN/hardware-reference/index.md', '快速入门']
+- ['zh_CN/software-guide/index.md', '快速入门']
+- ['zh_CN/software-guide/wifi-dev.md', 'WiFi']
+- ['zh_CN/software-guide/dev/wifi-dev.md', 'dev']
+- ['zh_CN/api-reference/index.md', '快速入门']
