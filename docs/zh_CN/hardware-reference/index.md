@@ -5,8 +5,8 @@
 
 # 芯片参考设计
 
-* [XR808CT0核心电路参考原理图及PCB (PDF & DSN & BRD)](../../doc/XR808/hdk/XR808CT0/XR808CT0_REF_SIMPLE_V1_0-20191017.zip)
-* [XR808ST0核心电路参考原理图及PCB (PDF & DSN & BRD)](../../doc/XR808/hdk/XR808ST0/XR808ST0_REF_SIMPLE_V1_0-20191017.zip)
+* [XR808CT0核心电路参考原理图及PCB (PDF & DSN & BRD)](../../doc/XR808/hdk/XR808CT0_REF_SIMPLE_V1_0-20191017.ZIP)
+* [XR808ST0核心电路参考原理图及PCB (PDF & DSN & BRD)](../../doc/XR808/hdk/XR808ST0_REF_SIMPLE_V1_0-20191017.zip)
 
 ----
 
