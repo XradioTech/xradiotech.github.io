@@ -19,6 +19,7 @@ FOTA(Firmware Over The Air,空中固件升级,以下简称OTA)是从远程服务
 ![OTA-image](../../images/OTA-image.png)  
 
 详细信息如下：
+
 * Flash空间由两个区域组成，此处成为"区域一"和"区域二"，且两个区域大小相同，为Image_size
 * 区域一由Bootloader和应用固件app_fw组成，区域二由boot_config及启动备份区组成
 * bootloader与boot_config区域大小相同，同为Boot Size，在`image.cfg`的"OTA"选项中的size字段定义
