@@ -22,6 +22,8 @@
   - [参考文档](#参考文档)
   - [参考示例工程](#参考示例工程)
 
+----
+
 # WLAN系统启动流程
 在wlan_demo工程中，网络系统加载流程如下：
 
@@ -31,15 +33,17 @@
 
 1. 初始化系统消息队列，创建系统消息处理线程；
 2. 配置网络子系统硬件，加载网络子系统固件；
-3. 初始化DUCC服务，注册回调函数；
+3. 初始化DUCC服务，注册回调函数(仅XR871)；
 4. 初始化TCP/IP协议栈；
 5. 创建netif网络接口并启动WLAN子系统任务；
+
+----
 
 # Station模式
 
 * 默认启动Station模式
   
-  Note: in **project/common/framework/platform_init.c**  调用流出如下:  
+  Note: in `project/common/framework/platform_init.c`  调用流出如下:  
   platform_init()  
   ----->platform_init_level1()  
   ---------->net_sys_init() + net_sys_start(sysinfo->wlan_mode);
@@ -127,27 +131,27 @@ if (wlan_sta_enable()!= 0)
 * 获取当前的配置参数
     * set the configure field
     * get the configuration of this field
-    * fields defined in **wlan_def.h** as follows:
+    * fields defined in `wlan_def.h` as follows:
   
- ```C
+```C
 typedef enum wlan_sta_field {
-   WLAN_STA_FIELD_SSID = 0,
-   WLAN_STA_FIELD_PSK,
-   WLAN_STA_FIELD_WEP_KEY0,
-   WLAN_STA_FIELD_WEP_KEY1,
-   WLAN_STA_FIELD_WEP_KEY2,
-   WLAN_STA_FIELD_WEP_KEY3,
-   WLAN_STA_FIELD_WEP_KEY_INDEX,
-   WLAN_STA_FIELD_KEY_MGMT,
-   WLAN_STA_FIELD_PAIRWISE_CIPHER,
-   WLAN_STA_FIELD_GROUP_CIPHER,
-   WLAN_STA_FIELD_PROTO,
-   WLAN_STA_FIELD_AUTH_ALG,
-   WLAN_STA_FIELD_WPA_PTK_REKEY,
-   WLAN_STA_FIELD_SCAN_SSID,
-   WLAN_STA_FIELD_NUM,
+    WLAN_STA_FIELD_SSID = 0,
+    WLAN_STA_FIELD_PSK,
+    WLAN_STA_FIELD_WEP_KEY0,
+    WLAN_STA_FIELD_WEP_KEY1,
+    WLAN_STA_FIELD_WEP_KEY2,
+    WLAN_STA_FIELD_WEP_KEY3,
+    WLAN_STA_FIELD_WEP_KEY_INDEX,
+    WLAN_STA_FIELD_KEY_MGMT,
+    WLAN_STA_FIELD_PAIRWISE_CIPHER,
+    WLAN_STA_FIELD_GROUP_CIPHER,
+    WLAN_STA_FIELD_PROTO,
+    WLAN_STA_FIELD_AUTH_ALG,
+    WLAN_STA_FIELD_WPA_PTK_REKEY,
+    WLAN_STA_FIELD_SCAN_SSID,
+    WLAN_STA_FIELD_NUM,
 } wlan_sta_field_t;
- ```
+```
 
 示例代码如下:
 
@@ -165,21 +169,21 @@ printf("psk: %s\n", config.u.psk);
     * 扫描出的AP节点结构信息如下
 
 ```C 
- typedef struct wlan_sta_ap {
-   wlan_ssid_t	ssid;
-   uint8_t		bssid[6];
-   uint8_t		channel;
-   uint16_t	beacon_int;
-   int		freq;
-   int		rssi;
-   int		level;
-   int		wpa_flags;
-   int		wpa_cipher;
-   int		wpa_key_mgmt;
-   int		wpa2_cipher;
-   int		wpa2_key_mgmt;
+typedef struct wlan_sta_ap {
+    wlan_ssid_t	ssid;
+    uint8_t		bssid[6];
+    uint8_t		channel;
+    uint16_t	beacon_int;
+    int		freq;
+    int		rssi;
+    int		level;
+    int		wpa_flags;
+    int		wpa_cipher;
+    int		wpa_key_mgmt;
+    int		wpa2_cipher;
+    int		wpa2_key_mgmt;
 } wlan_sta_ap_t;
- ```
+```
 
 * 执行一次扫描
 
@@ -211,8 +215,8 @@ wlan_sta_connect();
 
 ```C
 typedef enum wlan_sta_states {
-   WLAN_STA_STATE_DISCONNECTED = 0,
-   WLAN_STA_STATE_CONNECTED = 1,
+    WLAN_STA_STATE_DISCONNECTED = 0,
+    WLAN_STA_STATE_CONNECTED = 1,
 } wlan_sta_states_t;
 ```
 
@@ -229,6 +233,8 @@ wlan_sta_state(&state);
 wlan_sta_ap_t ap_info = {0};
 wlan_sta_ap_info(&ap_info);
 ```
+
+----
 
 # HostAP模式
 * 启动WLAN系统并工作在AP模式
@@ -303,6 +309,8 @@ if (wlan_ap_sta_info(&stas) == 0) {
 free(stas.sta);
 ```
 
+----
+
 # Monitor模式
 * 注册数据接收回调
 
@@ -334,6 +342,8 @@ wlan子系统已经就位的情况下可调用net_mode_switch()来切换到monit
 ```C
 net_switch_mode(WLAN_MODE_MONITOR);
 ```
+
+----
 
 # 监听网络事件
 参考以下demo
@@ -399,6 +409,7 @@ int net_service_init(void)
 ## 参考文档
 * [XR871_WiFi_Developer_Guide-CN.pdf](./doc/XR871/sdkdoc/XR871_WiFi_Developer_Guide-CN.pdf)
 
-# 参考工程示例
+# 参考工程示例及文件
 
-请参考sdk-code/project/demo/wlan_demo
+* xradio-skylark-sdk/project/demo/wlan_demo
+* xradio-skylark-sdk/include/net/wlan/wlan.h
