@@ -2,14 +2,6 @@
 ![](../../images/XRADIOTECHLOGO.png)
 
 [[English]](wifi-dev-en.md)
-![](./image/XRADIOTECHLOGO.png)
-
- 中文 | EN
-
-[主页](./Home) | [产品](./Products) | [下载](./Download) | [开发指南](./Developer) | [FAQ](./FAQ) | [联系我们](./Home#联系我们) | [购买样品](./Store)
-
----
-[开发指南](./Developer)  > WiFi开发
 
 ---
 
