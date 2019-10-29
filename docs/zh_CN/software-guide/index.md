@@ -6,7 +6,7 @@
 # 网络应用开发指南
 * [WiFi 开发指南](./wifi-dev.md)
 * [网络配置开发指南]()
-* [FOTA 开发指南]()
+* [FOTA 开发指南](./fota-dev.md)
 * [MQTT 通信开发指南]()
 * [websocket 通信开发指南]()
 * [sntp 模块使用指南]()
