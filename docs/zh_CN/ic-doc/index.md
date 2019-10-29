@@ -8,7 +8,7 @@
 ----
 
 * [XR808 产品简介/Product Breif (PDF)](../../doc/XR808/XR808_Product_Brief.pdf)
-* [XR808 PINMUX (PDF)](../../doc/XR808/XR808_PIN_Multiplexing_V1_0_20190726.pdf)
+* [XR808 PINMUX (PDF)](../../doc/XR808/XR808_PIN_Multiplexing_V1_1_20191012.pdf)
 * [XR808 数据手册/Datasheet (PDF)](../../doc/XR808/XR808_Datasheet_V0.3.pdf)
   
 ----
@@ -19,16 +19,23 @@
   
 ----
 
-* [XR872 产品简介/Product Breif (PDF)](../../doc/XR872/XR872_Product_Brief.pdf)
-* [XR872 PINMUX (PDF)](../../doc/XR872/XR872_PIN_Multiplexing_V1_0_20190726.pdf)
-* [XR872 数据手册/Datasheet (PDF)](../../doc/XR872/XR872_Datasheet_V0.3.pdf)
-
-----
-
 * [XR871 产品简介/Product Breif (PDF)](../../doc/XR871/XR871_Product_Brief_V1.0.pdf)
 * [XR871 PINMUX (PDF)](../../doc/XR871/XR871_PIN_Multiplexing.pdf)
 * [XR871 数据手册/Datasheet (PDF)](../../doc/XR871/XR871_Datasheet_V1.21.pdf)
 * [XR871 用户手册/User Manual (PDF)](../../doc/XR871/XR871_User_Manual_V1.0.pdf)
+
+----
+
+* [XR872 产品简介/Product Breif (PDF)](../../doc/XR872/XR872_Product_Brief.pdf)
+* [XR872 PINMUX (PDF)](../../doc/XR872/XR872_PIN_Multiplexing_V1_0_20191012.pdf)
+* [XR872 数据手册/Datasheet (PDF)](../../doc/XR872/XR872_Datasheet_V0.3.pdf)
+
+----
+
+* [AC101 数据手册/Datasheet (PDF)](../../doc/AC101/XR871_Product_Brief_V1.0.pdf)
+* [AC102 数据手册/Datasheet (PDF)](../../doc/AC102/X-Powers_AC102_Datasheet_V0.7.pdf)
+* [AC107 数据手册/Datasheet (PDF)](../../doc/AC107/X-Powers_AC107_AC107S_Datasheet_V1.23.pdf)
+
 
 # 芯片规格概览
 
