@@ -23,7 +23,7 @@
   * [XR808ST0_MD01 模块原理图及PCB (PDF & DSN & BRD)](../../doc/XR808/hdk/XR808ST0_MD01.ZIP)
   * [XR808_EVB_IO 开发板原理图及PCB (PDF & DSN)](../../doc/XR808/hdk/XR808MD_EVB_IO_V1_0.ZIP) 
   * [XR872AT_MD01 模块原理图及PCB (PDF & DSN)](../../doc/XR872/hdk/XR872AT_MD01_V1.0_20190827.ZIP)
-  * [XR872_EVB_AI 开发板原理图及PCB (PDF & DSN)](../../doc/XR872/hdk/XR872_EVB_AI_V1.0-20190830.ZIP)
+  * [XR872_EVB_AI 开发板原理图及PCB (PDF & DSN)](../../doc/XR872/hdk/XR872AT_EVB_IO_V1_0-20190828.ZIP)
 
 ----
 
