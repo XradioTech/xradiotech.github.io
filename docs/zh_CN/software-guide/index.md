@@ -25,7 +25,8 @@
 # 系统模块使用指南
 * [文件系统及SD卡使用指南(待补充)]()
 * [FLASH数据管理模块FDCM使用指南(待补充)]()
-* [FLASH XiP使用指南(待补充)]()
+* [PSRAM 使用指南](../../download/4.SDK/document/XRADIO_PSRAM_User_Guide-CN.pdf)
+* [FLASH XiP使用指南](../../download/4.SDK/document/XRADIO_XIP_User_Guide-CN.pdf)
 * [efuse读写模块efpg使用指南(待补充)]()
 * [Image配置指南(待补充)]()
 * [控制台 CONSOLE 设计指南](../../download/4.SDK/document/XRADIO_Console_Command_Developer_Guide-CN.pdf)
