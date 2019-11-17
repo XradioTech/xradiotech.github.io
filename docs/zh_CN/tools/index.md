@@ -38,14 +38,14 @@
 
 * [xradio_smart_config_tool_v1.1.1.zip](../../download/4.SDK/tools/xradio_smart_config_tool_v1.1.1.zip)
 
-* [《XRADIO_SmartConfig_Tool_User_Guide-CN》](../../download/4.SDK/tools/XRADIO_SmartConfig_Tool_User_Guide-CN.pdf)
+* [《XRADIO_SmartConfig_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_SmartConfig_Tool_User_Guide-CN.pdf)
 
 
 ## Sound Config
 
 * [xradio_sound_config_tool_v1.1.0.zip](../../download/4.SDK/tools/xradio_sound_config_tool_v1.1.0.zip)
 
-* [《XRADIO_SoundConfig_Tool_User_Guide-CN》](../../download/4.SDK/tools/XRADIO_SoundConfig_Tool_User_Guide-CN.pdf)
+* [《XRADIO_SoundConfig_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_SoundConfig_Tool_User_Guide-CN.pdf)
 
 ## AirKiss
-* [《XRADIO_AirKiss_Tool_User_Guide-CN》](../../download/4.SDK/tools/XRADIO_AirKiss_Tool_User_Guide-CN.pdf)
+* [《XRADIO_AirKiss_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_AirKiss_Tool_User_Guide-CN.pdf)

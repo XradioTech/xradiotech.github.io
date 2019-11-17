@@ -543,3 +543,5 @@ IMAGE_CFG := ./image.cfg
 ## 工程小技巧
 
 ## 参考文档
+
+* [《XRADIO_Quick_Start_Guide-CN》](../../download/4.SDK/document/XRADIO_Quick_Start_Guide-CN.pdf)
