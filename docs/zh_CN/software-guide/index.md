@@ -3,6 +3,9 @@
 
 [[English]](index-en.md)
 
+# SDK开发指南
+* [快速上手指南](../../download/4.SDK/document/XRADIO_Quick_Start_Guide-CN.pdf)
+
 # 网络应用开发指南
 * [WLAN 开发指南](./wifi-dev.md)
 * [网络配置开发指南(待补充)]()
