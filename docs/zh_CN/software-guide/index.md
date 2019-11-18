@@ -15,26 +15,24 @@
 * [sntp 模块使用指南(待补充)]()
 
 # 音频应用开发指南
-* [PCM 录音及播放(待补充)]()
-* [音乐播控组件 CedarX 的使用(待补充)]()
-* [player_app 的使用(待补充)]()
+* [音频应用开发指南](../../download/4.SDK/document/XRADIO_Audio_Developer_Guide-CN.pdf)
 
 # 图像应用开发指南
-* [CSI + JPEG编码指南(待补充)]()
+* [CSI+JPEG编码开发指南](../../download/4.SDK/document/XR872_Jpeg_Developr_Guide-CN.pdf)
 
 # 系统模块使用指南
-* [文件系统及SD卡使用指南(待补充)]()
+* [文件系统开发指南](../../download/4.SDK/document/XRADIO_FatFs_Developer_Guide-CN.pdf)
 * [FLASH数据管理模块FDCM使用指南(待补充)]()
 * [PSRAM 使用指南](../../download/4.SDK/document/XRADIO_PSRAM_User_Guide-CN.pdf)
 * [FLASH XiP使用指南](../../download/4.SDK/document/XRADIO_XIP_User_Guide-CN.pdf)
 * [efuse读写模块efpg使用指南(待补充)]()
 * [Image配置指南(待补充)]()
-* [控制台 CONSOLE 设计指南](../../download/4.SDK/document/XRADIO_Console_Command_Developer_Guide-CN.pdf)
+* [控制台 CONSOLE 开发指南](../../download/4.SDK/document/XRADIO_Console_Command_Developer_Guide-CN.pdf)
 * [控制台 命令集(待补充)]()
 * [WATCH DOG 使用指南(待补充)]()
 * [RTC 使用指南(待补充)]()
 * [TIMER 使用指南(待补充)]()
-* [WLAN 低功耗发指南](../../download/4.SDK/document/XRADIO_WLAN_Low_Power_Developer_Guide-CN.pdf)
+* [WLAN 低功耗开发指南](../../download/4.SDK/document/XRADIO_WLAN_Low_Power_Developer_Guide-CN.pdf)
 * [硬件加解密模块使用指南(待补充)]()
 
 # 外设模块使用指南
