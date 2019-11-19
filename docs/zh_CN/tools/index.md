@@ -49,3 +49,11 @@
 
 ## AirKiss
 * [《XRADIO_AirKiss_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_AirKiss_Tool_User_Guide-CN.pdf)
+
+
+----
+
+# 固件镜像
+
+* [xr872_wlan_demo.img](../../download/4.SDK/tools/xr872_wlan_demo_rc3.img)
+* [xr872_audio_demo.img](../../download/4.SDK/tools/xr872_audio_demo_rc3.img)
