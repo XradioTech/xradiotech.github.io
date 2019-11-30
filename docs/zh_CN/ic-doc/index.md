@@ -9,7 +9,7 @@
 
 * [XR808 产品简介/Product Breif (PDF)](../../doc/XR808/XR808_Product_Brief.pdf)
 * [XR808 PINMUX (PDF)](../../doc/XR808/XR808_PIN_Multiplexing_V1_1_20191012.pdf)
-* [XR808 数据手册/Datasheet (PDF)](../../doc/XR808/XR808_Datasheet_V0.3.pdf)
+* [XR808 数据手册/Datasheet (PDF)](../../doc/XR808/XR808_Datasheet_V1.0.pdf)
   
 ----
 
