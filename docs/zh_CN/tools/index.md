@@ -26,7 +26,7 @@
 
 # RF测试工具
 
-* [xradio_etf_tool](../../download/2.产品指导/xradio_etf_tool_v1.0.6d-p2.zip)
+* [xradio_etf_tool](../../download/2.产品指导/xradio_etf_tool_v1.0.7a_p3.zip)
 
 * [《XRADIO_RF测试开发指导》](../../download/2.产品指导/XRADIO_RF测试开发指导_V1.0.pdf)
 
@@ -43,7 +43,7 @@
 
 ## Sound Config
 
-* [xradio_sound_config_tool](../../download/4.SDK/tools/xradio_sound_config_tool_v1.1.0.zip)
+* [xradio_sound_config_tool](../../download/4.SDK/tools/xradio_sound_config_tool_v1.1.2s.zip)
 
 * [《XRADIO_SoundConfig_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_SoundConfig_Tool_User_Guide-CN.pdf)
 
