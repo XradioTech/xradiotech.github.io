@@ -55,17 +55,18 @@
 
 # 固件镜像
 
-## XR872AT_MD01 + XR872_EVB_AI
+## XR872
 
-* [xr872_wlan_demo.img](../../download/4.SDK/tools/xr872_wlan_demo_v1.0.2.img)
-* [xr872_audio_demo.img](../../download/4.SDK/tools/xr872_audio_demo_v1.0.2.img)
+| 镜像 |说明 |链接|
+| ---- | ---- | ---- |
+| WLAN演示 |1.名称：xr872_wlan_demo.img<br>2.工程：基于project/demo/wlan_demo演示工程<br>3.评估板：<br>a) XR872AT_MD01 + XR872_EVB_AI<br>b) XR872AT_MD01 + XR872_EVB_IO| [下载](../../download/4.SDK/tools/xr872_wlan_demo_v1.0.2.img)|
+| 音频演示 |1.名称：xr872_audio_demo.img<br>2.工程：基于project/demo/audio_demo演示工程<br>3.评估板：XR872AT_MD01 + XR872_EVB_AI| [下载](../../download/4.SDK/tools/xr872_audio_demo_v1.0.2.img)|
+| WLAN功耗测试 |1.名称：xr872_wlan_power_test.img<br>2.工程：基于project/demo/wlan_demo演示工程<br>a) CPU频率改为160MHz<br>b) 启用外部32KHz低频晶振<br>3.评估板：XR872AT_MD01 + XR872_EVB_IO| [下载](../../download/4.SDK/tools/xr872_wlan_power_test_v1.0.2.img)|
 
-## XR872AT_MD01 + XR872_EVB_IO
-* [xr872_wlan_power_test.img](../../download/4.SDK/tools/xr872_wlan_power_test_v1.0.2.img)
+## XR808
 
-## XR808CT0_MD01/XR808CT0_MD02+XR808_EVB_IO
-* [xr808_wlan_demo.img](../../download/4.SDK/tools/xr808_wlan_demo_v1.0.2.img)
-* [xr808_wlan_cold_start_fast_connection.img](../../download/4.SDK/tools/xr808_wlan_cold_start_fast_connection_v1.0.2.img)
-
-## XR808CT0_MD02+XR808_EVB_IO
-* [xr808_wlan_power_test.img](../../download/4.SDK/tools/xr808_wlan_power_test_v1.0.2.img)
+| 镜像 |说明 |链接|
+| ---- | ---- | ---- |
+| WLAN演示 |1.名称：xr808_wlan_demo.img<br>2.工程：基于project/demo/wlan_demo演示工程<br>3.评估板：<br>a) XR808CT0_MD01 + XR808_EVB_IO<br>b) XR808CT0_MD02 + XR808_EVB_IO| [下载](../../download/4.SDK/tools/xr808_wlan_demo_v1.0.2.img)|
+| WLAN功耗测试 |1.名称：xr808_wlan_power_test.img<br>2.工程：基于project/demo/wlan_demo演示工程<br>a) 启用外部32KHz低频晶振<br>3.评估板：XR808CT0_MD02 + XR872_EVB_IO| [下载](../../download/4.SDK/tools/xr872_wlan_power_test_v1.0.2.img)|
+| 冷启动快连 |1.名称：xr808_wlan_cold_start_fast_connection.img<br>2.工程：基于project/example/cold_start_fast_connection示例工程<br>3.评估板：<br>a) XR808CT0_MD01 + XR808_EVB_IO<br>b) XR808CT0_MD02 + XR808_EVB_IO| [下载](../../download/4.SDK/tools/xr808_wlan_cold_start_fast_connection_v1.0.2.img)|
