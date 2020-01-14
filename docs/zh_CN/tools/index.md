@@ -5,7 +5,7 @@
 
 # 烧录工具
 
-* [xradio_phoenixMC](../../download/4.SDK/tools/xradio_phoenixMC_v3.1.0103c.zip)
+* [xradio_phoenixMC](../../download/4.SDK/tools/xradio_phoenixMC_v3.1.0114c.zip)
 * [《XRADIO_PhoenixMC_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_PhoenixMC_Tool_User_Guide-CN.pdf)
 
 ----
