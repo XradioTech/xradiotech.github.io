@@ -38,6 +38,10 @@
 * [AC102电路设计参考原理图 (PDF)](../../doc/AC102/AC102-DEMO-V1.2.pdf)
 * [AC107电路设计参考原理图 (PDF)](../../doc/AC107/AC107_4MIC1REF_EVB_V1_0_20190227-1.pdf)
 
+# 支持列表
+
+* [Flash支持列表 (XLS)](../../download/2.产品指导/XR872_XR808_SPI_Nor_Flash_Support_List_V1.0.xls)
+
 # 芯片封装下载
 
-* [芯片封装集合](../../doc/package/PCB_Package_REF.zip)
+* [芯片封装集合 (ZIP)](../../doc/package/PCB_Package_REF.zip)
