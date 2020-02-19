@@ -5,32 +5,32 @@
 
 # 烧录工具
 
-* [xradio_phoenixMC](../../download/4.SDK/tools/xradio_phoenixMC_v3.1.0114c.zip)
+* [xradio_phoenixMC v3.1.0218a](../../download/4.SDK/tools/xradio_phoenixMC_v3.1.0218a.zip)
 * [《XRADIO_PhoenixMC_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_PhoenixMC_Tool_User_Guide-CN.pdf)
 
 ----
 
 # 打包工具
 
-* [xradio_pack_tool](../../download/4.SDK/tools/xradio_pack_tool_v1.20r.zip)
+* [xradio_pack_tool v1.20r](../../download/4.SDK/tools/xradio_pack_tool_v1.20r.zip)
 
 ----
 
 # efuse工具
 
-* [xradio_efuse_tool](../../download/5.生产测试/xradio_efuse_tool_v2.0.0930-p1.zip)
+* [xradio_efuse_tool v2.0.0930-p1](../../download/5.生产测试/xradio_efuse_tool_v2.0.0930-p1.zip)
 
 * [《XRADIO_Efuse_Tool_User_Guide-CN》](../../download/2.产品指导/XRADIO_Efuse_Tool_User_Guide-CN.pdf)
 
 # sdd工具
 
-* [xradio_sdd_editor_ex](../../download/4.SDK/tools/xradio_sdd_editor_ex_v2.5.191212a.zip)
+* [xradio_sdd_editor_ex v2.5.191212a](../../download/4.SDK/tools/xradio_sdd_editor_ex_v2.5.191212a.zip)
 
 ----
 
 # RF测试工具
 
-* [xradio_etf_tool](../../download/2.产品指导/xradio_etf_tool_v1.0.7a_p3.zip)
+* [xradio_etf_tool v1.0.8b](../../download/2.产品指导/xradio_etf_tool_v1.0.8b.zip)
 
 * [《XRADIO_RF测试开发指导》](../../download/2.产品指导/XRADIO_RF测试开发指导_V1.0.pdf)
 
@@ -40,14 +40,14 @@
 
 ## Smart Config
 
-* [xradio_smart_config_tool](../../download/4.SDK/tools/xradio_smart_config_tool_v1.1.1.zip)
+* [xradio_smart_config_tool v1.1.1](../../download/4.SDK/tools/xradio_smart_config_tool_v1.1.1.zip)
 
 * [《XRADIO_SmartConfig_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_SmartConfig_Tool_User_Guide-CN.pdf)
 
 
 ## Sound Config
 
-* [xradio_sound_config_tool](../../download/4.SDK/tools/xradio_sound_config_tool_v1.1.2s.zip)
+* [xradio_sound_config_tool v1.1.2s](../../download/4.SDK/tools/xradio_sound_config_tool_v1.1.2s.zip)
 
 * [《XRADIO_SoundConfig_Tool_User_Guide-CN》](../../download/4.SDK/document/XRADIO_SoundConfig_Tool_User_Guide-CN.pdf)
 
