@@ -41,6 +41,7 @@
 # 支持列表
 
 * [Flash支持列表 (XLS)](../../download/2.产品指导/XR872_XR808_SPI_Nor_Flash_Support_List_V1.0.xls)
+* [晶振支持列表 (XLS)](../../download/2.产品指导/XRADIO_CRYSTAL_Support_List_V1.0.xls)
 
 # 芯片封装下载
 
