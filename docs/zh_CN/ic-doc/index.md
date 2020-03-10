@@ -29,6 +29,7 @@
 * [XR872 产品简介/Product Breif (PDF)](../../doc/XR872/XR872_Product_Brief.pdf)
 * [XR872 PINMUX (PDF)](../../doc/XR872/XR872_PIN_Multiplexing_V1_0_20191012.pdf)
 * [XR872 数据手册/Datasheet (PDF)](../../doc/XR872/XR872_Datasheet_V1.0.pdf)
+* [XR872 用户手册/User Manual (PDF)](../../download/1.芯片资料/XR872_User_Manual_V1.0.pdf)
 
 ----
 
