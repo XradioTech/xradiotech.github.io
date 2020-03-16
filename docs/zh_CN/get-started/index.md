@@ -44,9 +44,8 @@ table th {
 # 了解硬件
 请点击下方链接，了解有关具体开发板的详细信息。
 
-* [XR872_EVB_IO](xr872_evb_io.md)
-* [XR872_EVB_AI](xr872_evb_AI.md)
-* [XR808_EVB_IO](xr808_evb_io.md)
+* [《XR872 EVB 使用指南》](../../download/2.产品指导/XR872_EVB_User_Guide_V1.0.pdf) 
+  * 注：XR808 EVB IO板的使用可参考上述《XR872 EVB 使用指南》文档
 
 # 搭建环境
 ## Linux平台搭建

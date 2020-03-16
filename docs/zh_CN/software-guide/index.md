@@ -18,35 +18,31 @@
 |《XRADIO_Console_Command_Developer_Guide-CN》|- | [PDF](../../download/4.SDK/document/XRADIO_Console_Command_Developer_Guide-CN.pdf) |
 |《XRADIO_FatFs_Developer_Guide-CN》        |- | [PDF](../../download/4.SDK/document/XRADIO_FatFs_Developer_Guide-CN.pdf) |
 |《XRADIO_Security_Boot_Developer_Guide-CN》|- | [PDF](../../download/4.SDK/document/XRADIO_Security_Boot_Developer_Guide-CN.pdf) |
-|《XRADIO_WatchDog_User_Guide-CN》          |待补充 | - |
-|《XRADIO_RTC_User_Guide-CN》               |待补充 | - |
-|《XRADIO_Timer_User_Guide-CN》             |待补充 | - |
-|《XRADIO_HW_Encryption_User_Guide-CN》        |待补充 | - |
+
+* 注：其余基础设施的使用说明，请参考skylark sdk中的示例代码及对应的readme.md文档(sdk包中的路径：./project/example),例如：watch dong、rtc、timer、hw encryption等。
 
 # 外设模块
 |文档 |说明 |链接|
 | ---- | ---- | ---- |
-|《XRADIO_GPIO_User_Guide-CN》          |待补充 | - |
-|《XRADIO_UART_User_Guide-CN》          |待补充 | - |
-|《XRADIO_I2C_User_Guide-CN》           |待补充 | - |
-|《XRADIO_SPI_User_Guide-CN》           |待补充 | - |
-|《XRADIO_PWM_User_Guide-CN》           |待补充 | - |
-|《XRADIO_Flash_Developer_Guide-CN》    |- | [PDF](../../download/4.SDK/document/XRADIO_Flash_Developer_Guide-CN.doc.pdf) |
+|《XRADIO_Flash_Developer_Guide-CN》    |- | [PDF](../../download/4.SDK/document/XRADIO_Flash_Developer_Guide-CN.pdf) |
 |《XRADIO_Button_Developer_Guide-CN》   |- | [PDF](../../download/4.SDK/document/XRADIO_Button_Developer_Guide-CN.pdf) |
+
+* 注：其余外设模块的使用说明，请参考skylark sdk中的示例代码及对应的readme.md文档(sdk包中的路径：./project/example),例如：gpio、uart、spi、pwm等。
+
 
 # 网络应用
 |文档 |说明 |链接|
 | ---- | ---- | ---- |
 |《XRADIO_DHCPD_Developer_Guide-CN》    |- | [PDF](../../download/4.SDK/document/XRADIO_DHCPD_Developer_Guide-CN.pdf) |
 |《XRADIO_HTTPC_Developer_Guide-CN》    |- | [PDF](../../download/4.SDK/document/XRADIO_HTTPC_Developer_Guide-CN.pdf) |
-|《XRADIO_MbedTls_Developer_Guide-CN》  |- | [PDF](../../download/4.SDK/document/XRADIO_MbedTls_Developer_Guide-CN.pdf) |
-|《XRADIO_MbedTls_Appication_Note-CN》  |MbedTls的应用笔记 | [PDF](../../download/4.SDK/document/XRADIO_MbedTls_Appication_Note-CN.pdf) |
+|《XRADIO_MbedTls_Developer_Guide-CN》  |- | [PDF](../../download/4.SDK/document/XRADIO_MBEDTLS_Developer_Guide-CN.pdf) |
+|《XRADIO_MbedTls_Appication_Note-CN》  |MbedTls的应用笔记 | [PDF](../../download/4.SDK/document/XRADIO_MBEDTLS_Appication_Note-CN.pdf) |
 |《XRADIO_MQTT_Developer_Guide-CN》     |- | [PDF](../../download/4.SDK/document/XRADIO_MQTT_Developer_Guide-CN.pdf) |
 |《XRADIO_NoPoll_Developer_Guide-CN》   |websocket应用 | [PDF](../../download/4.SDK/document/XRADIO_NoPoll_Developer_Guide-CN.pdf) |
 |《XRADIO_SHTTPD_Developer_Guide-CN》   |- | [PDF](../../download/4.SDK/document/XRADIO_SHTTPD_Developer_Guide-CN.pdf) |
 |《XRADIO_SNTP_Developer_Guide-CN》     |- | [PDF](../../download/4.SDK/document/XRADIO_SNTP_Developer_Guide-CN.pdf) |
-|《XRADIO_Ping_Developer_Guide-CN》     |- | [PDF](../../download/4.SDK/document/XRADIO_Ping_Developer_Guide-CN.pdf) |
-|《XRADIO_Iperf_User_Guide-CN》         |- | [PDF](../../download/4.SDK/document/XRADIO_Iperf_User_Guide-CN.pdf) |
+|《XRADIO_Ping_Developer_Guide-CN》     |- | [PDF](../../download/4.SDK/document/XRADIO_PING_Developer_Guide-CN.pdf) |
+|《XRADIO_Iperf_User_Guide-CN》         |- | [PDF](../../download/4.SDK/document/XRADIO_IPERF_User_Guide-CN.pdf) |
 
 # WLAN应用
 |文档 |说明 |链接|
@@ -67,7 +63,7 @@
 |文档 |说明 |链接|
 | ---- | ---- | ---- |
 |《XRADIO_QR_Developer_Guide-CN》           |QR二维码 | [PDF](../../download/4.SDK/document/XRADIO_QR_Developer_Guide-CN.pdf) |
-|《XR872_Jpeg_Developer_Guide-CN》          |XR872内置Jpeg硬解码模块开发指南 | [PDF](../../download/4.SDK/document/XR872_Jpeg_Developer_Guide-CN.pdf) |
+|《XR872_Jpeg_Developer_Guide-CN》          |XR872内置Jpeg硬解码模块开发指南 | [PDF](../../download/4.SDK/document/XR872_Jpeg_Developr_Guide-CN.pdf) |
 
 # 其他
 |文档 |说明 |链接|
