@@ -8,6 +8,7 @@ nav:
     - 产品手册: zh_CN/ic-doc/index.md
     - 硬件参考: zh_CN/hardware-reference/index.md
     - 开发指南: zh_CN/software-guide/index.md
+    - 应用指南: zh_CN/application-guide/index.md
     - 工具使用: zh_CN/tools/index.md
     - 产品设计: zh_CN/product-design-guide/index.md
     - 生产测试: zh_CN/manufature-test/index.md
