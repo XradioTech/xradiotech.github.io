@@ -12,4 +12,4 @@
 
 # AliOS Things
 
-* 待补充
+* [alios(AOS-R-3.0.0) support psram patch](../../download/7.应用指南/FreeRtos/xr872at_alios_R_3.0.0_support_psram_xip.7z)
