@@ -12,6 +12,7 @@
 * [xr872_xradio_skylark_sdk_1.0.2_vad_demo](../../download/7.应用指南/FreeRtos/xr872_xradio_skylark_sdk_1.0.2_vad_demo.7z)
 * [xr872_xradio_skylark_sdk_1.0.2_cedarxToPcm_demo](../../download/7.应用指南/FreeRtos/xr872_xradio_skylark_sdk_1.0.2_cedarxToPcm_demo.7z)
 * [xr872_xradio_skylark_sdk_1.0.2_pwm_player_demo](../../download/7.应用指南/FreeRtos/xr872_xradio_skylark_sdk_1.0.2_pwm_player_demo.7z)
+* [xr872_xradio_skylark_sdk_1.0.2_wlan_msg_demo](../../download/7.应用指南/FreeRtos/xr872_xradio_skylark_sdk_1.0.2_wlan_msg_demo.7z)
 
 
 # AliOS Things
