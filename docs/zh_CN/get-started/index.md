@@ -78,9 +78,8 @@ tar -xf gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2
 
 |![](../../images/note-white-18.png) 注意|
 |----|
-|如果wget和unzip命令执行失败，请点击下面的链接直接通过浏览器下载到tools目录使用相关的工具解压|
-
-下载链接：[官方下载](https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2) [本站镜像](../../download/4.SDK/tools/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2) 
+|如果wget和unzip命令执行失败，请点击下面的链接直接通过浏览器下载到tools目录使用相关的工具解压<br>下载链接：[官方下载](https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2) [本站镜像](../../download/4.SDK/tools/gcc-arm-none-eabi-4_9-2015q2-20150609-linux.tar.bz2) 
+|
 
 ## Windows平台搭建
 ##### 1. 安装Cygwin工具
@@ -111,10 +110,7 @@ unzip -o gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip
 
 |![](../../images/note-white-18.png) 注意|
 |----|
-|如果wget和unzip命令执行失败，请点击下面的链接直接通过浏览器下载到tools目录使用相关的工具解压|
-
-下载链接：[官方下载](https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip) [本站镜像](../../download/4.SDK/tools/gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip) 
-
+|如果wget和unzip命令执行失败，请点击下面的链接直接通过浏览器下载到tools目录使用相关的工具解压<br>下载链接：[官方下载](https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q2-update/+download/gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip) [本站镜像](../../download/4.SDK/tools/gcc-arm-none-eabi-4_9-2015q2-20150609-win32.zip) |
 
 ## 编译示例工程
 ##### 1. 配置gcc路径
