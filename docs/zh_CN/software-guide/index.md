@@ -19,7 +19,7 @@
 |《XRADIO_FatFs_Developer_Guide-CN》        |- | [PDF](../../download/4.SDK/document/XRADIO_FatFs_Developer_Guide-CN.pdf) |
 |《XRADIO_Security_Boot_Developer_Guide-CN》|- | [PDF](../../download/4.SDK/document/XRADIO_Security_Boot_Developer_Guide-CN.pdf) |
 
-* 注：其余基础设施的使用说明，请参考skylark sdk中的示例代码及对应的readme.md文档(sdk包中的路径：./project/example),例如：watch dong、rtc、timer、hw encryption等。
+* 注：其余基础设施的使用说明，请参考skylark sdk中的示例代码及对应的readme.md文档(sdk包中的路径：./project/example),例如：watch dog、rtc、timer、hw encryption等。
 
 # 外设模块
 |文档 |说明 |链接|
