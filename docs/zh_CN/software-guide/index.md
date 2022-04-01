@@ -49,7 +49,6 @@
 | ---- | ---- | ---- |
 |《XRADIO_WLAN_Developer_Guide-CN》             |- | [PDF](../../download/4.SDK/document/XRADIO_WLAN_Developer_Guide-CN.pdf) |
 |《XRADIO_WLAN_Cold_Start_Fast_Connection_Developer_Guide-CN》|WLAN 冷启动快连 | [PDF](../../download/4.SDK/document/XRADIO_WLAN_Cold_Start_Fast_Connection_Developer_Guide-CN.pdf) |
-|《XRADIO_WLAN_Low_Power_Developer_Guide-CN》   |- | [PDF](../../download/4.SDK/document/XRADIO_WLAN_Low_Power_Developer_Guide-CN.pdf) |
 |《XRADIO_WLAN_Config_Developer_Guide-CN》      |WLAN 配网 | [PDF](../../download/4.SDK/document/XRADIO_WLAN_Config_Developer_Guide-CN.pdf) |
 
 # 音频应用
